@@ -9,7 +9,7 @@
   <script>
     var functionVar = {
         add:"1",
-        substraction:"2",
+        subtraction:"2",
         multiplication:"3",
         equal:"4",
         division:"5",
@@ -24,7 +24,7 @@
     <title>Document</title>
 </head>
 <body  class="bg-black text-white font-light flex items-center justify-center">
-    <div class="flex flex-col lg:w-[40%] md:w-[60%] sm-[80%]">
+    <div class="flex flex-col lg:w-[40%] md:w-[60%] sm:w-[80%]">
 <input readonly id="ans" class="w-full h-[5rem] border rounded-lg text-right text-black p-3">
 <div class="h-[2rem]"></div>
 <div class="grid grid-cols-4 gap-2 ">
@@ -46,7 +46,7 @@
 <button class="flex items-center justify-center bg-[#4B5EFC] rounded-lg p-3" onclick="functionButton(functionVar.add)">+</button>
 <button class="flex items-center justify-center bg-[#2E2F38] rounded-lg p-3" onclick="functionButton(functionVar.decimal)">.</button>
 <button class="flex items-center justify-center bg-[#2E2F38] rounded-lg p-3" onclick="NumberButtonClick(0)">0</button>
-<button class="flex items-center justify-center bg-[#2E2F38] rounded-lg flex items-center" onclick="functionButton(functionVar.backspace)"><span class="material-symbols-outlined">
+<button class="flex items-center justify-center bg-[#2E2F38] rounded-lg flex" onclick="functionButton(functionVar.backspace)"><span class="material-symbols-outlined">
     backspace
     </span></button>
 <button class="bg-[#4B5EFC] rounded-lg flex items-center justify-center" onclick="functionButton(functionVar.equal)">=</button>
